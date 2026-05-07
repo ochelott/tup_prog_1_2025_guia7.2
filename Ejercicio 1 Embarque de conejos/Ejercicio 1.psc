@@ -7,7 +7,7 @@ Algoritmo sin_titulo
 	PesoG <- 0;
 	Para c = 1 Hasta 10 Hacer
 		
-		Escribir "Ingrese peso del conejo";
+		Escribir "Ingrese peso del conejo [Ingrese -1 para terminar]";
 		leer peso;
 		PesoTotC <- 0;
 		ConejosAp <- 0;
@@ -18,7 +18,7 @@ Algoritmo sin_titulo
 			SiNo
 				Escribir "Peso no apto";
 			FinSi
-			Escribir "Ingrese peso del conejo";
+			Escribir "Ingrese peso del conejo [Ingrese -1 para terminar]";
 			leer peso;
 		FinMientras
 		Escribir "Peso total de conejos aptos: ", PesoTotC, " Kg";
